@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #1e1e1e;
+}
+.hero-section {
+	background: none;
+	color: #e1e1e1;
+	/*  */
+	padding: 50px 100px;
+}
+.hero-section .hero-title {
+	color: #e1e1e1;
+	text-align: left;
+	/*  */
+	margin-bottom: 50px;
+}
+
+p.borders-title,
+p.colors-title {
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.borders-cont .borders {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+	/*  */
+	margin-bottom: 30px;
+}
+.borders-cont .borders span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.borders-cont .borders span:nth-of-type(1) {
+	outline: 1px solid #4a4a4a;
+}
+.borders-cont .borders span:nth-of-type(2) {
+	outline: 1px solid #525252;
+}
+.borders-cont .borders span:nth-of-type(3) {
+	outline: 1px solid #505050;
+}
+.borders-cont .borders span:nth-of-type(4) {
+	outline: 1px solid #8e8e8e;
+}
+
+.colors-cont .colors {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	/*  */
+	/* margin-bottom: 30px; */
+}
+.colors-cont .colors span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.colors-cont .colors span:nth-of-type(1) {
+	background-color: #fff;
+}
+.colors-cont .colors span:nth-of-type(2) {
+	background-color: #9f9fa5;
+}
+.colors-cont .colors span:nth-of-type(3) {
+	background-color: #131111;
+}
+.colors-cont .colors span:nth-of-type(4) {
+	background-color: #3c3c3c;
+}
+.colors-cont .colors span:nth-of-type(5) {
+	background-color: #565656;
+}
+.colors-cont .colors span:nth-of-type(6) {
+	background-color: #383838;
+}
+.colors-cont .colors span:nth-of-type(7) {
+	background-color: #34c759;
+}
+.colors-cont .colors span:nth-of-type(8) {
+	background-color: #3c84f5;
+}
+.colors-cont .colors span:nth-of-type(9) {
+	background-color: #d85d4f;
+}
+
+/* Media query */
+@media only screen and (max-width: 1000px) {
+}
+@media only screen and (max-width: 769px) {
+	.hero-section {
+		padding: 50px 50px;
+	}
+	.hero-section .hero-title {
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.hero-section {
+		padding: 50px 30px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.hero-section {
+		padding: 50px 20px;
+	}
+}
